@@ -72,39 +72,51 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="168dp"
         android:background="@color/white"
-        app:srcCompat="@drawable/started"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="666dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/started" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup"
+        app:layout_constraintVertical_bias="0.197"
         app:srcCompat="@drawable/already"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="740dp" />
+        tools:layout_editor_absoluteX="47dp" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:layout_width="167dp"
+        android:layout_height="36dp"
         android:background="@color/white"
-        app:srcCompat="@drawable/about"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="790dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in"
+        app:srcCompat="@drawable/about" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mainlogoblu1"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="-2dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/about"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@drawable/mainlogoblu1" />
 
     <ImageView
         android:id="@+id/imageView6"
