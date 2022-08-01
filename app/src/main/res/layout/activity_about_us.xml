@@ -93,7 +93,7 @@
         app:srcCompat="@drawable/goback" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView"
         android:layout_width="362dp"
         android:layout_height="272dp"
         app:srcCompat="@drawable/aboutpic"

@@ -135,7 +135,7 @@
                     app:srcCompat="@drawable/am" />
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/student"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/pills_ek1"
@@ -146,7 +146,7 @@
                     app:srcCompat="@drawable/student" />
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/worker"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/pills_ek1"
@@ -157,7 +157,7 @@
                     app:srcCompat="@drawable/retirementhouse" />
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/donationbtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/pills_ek2"
