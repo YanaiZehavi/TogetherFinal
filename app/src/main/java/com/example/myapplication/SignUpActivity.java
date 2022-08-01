@@ -42,10 +42,10 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View view) {
         if(view == signup){
             Intent i = new Intent(this, SignUpActivity2.class);
-            i.putExtra("username",username.getText().toString());
-            i.putExtra("password",password.getText().toString());
-            i.putExtra("email",email.getText().toString());
-            i.putExtra("phoneNum",phoneNum.getText().toString());
+            i.putExtra("username",username.toString());
+            i.putExtra("password",password.toString());
+            i.putExtra("email",email.toString());
+            i.putExtra("phoneNum",phoneNum.toString());
             startActivity(i);
             //createAccount(email.getText().toString(), password.getText().toString() );
         }
