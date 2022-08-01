@@ -7,4 +7,22 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="_bg__travel_2_ek2_color">#FFFFFF</color>
+    <color name="title_color">#20A2A2</color>
+    <color name="title_ek1_color">#2C2C2C</color>
+    <color name="box_shadow_color">#000000</color>
+    <color name="_ang_ch_y_color">#36322D</color>
+    <color name="_____ng_color">#71357C</color>
+    <color name="_2022_color">#23211F</color>
+    <color name="day_color">#71717A</color>
+    <color name="dot_color">#3B82F6</color>
+    <color name="dot_ek4_color">#6B92E4</color>
+    <color name="dot_ek5_color">#7EC4AC</color>
+    <color name="day_ek62_color">#18191A</color>
+    <color name="day_ek66_color">#8E8E8D</color>
+    <color name="inactive_ek1_color">#61646B</color>
 </resources>
