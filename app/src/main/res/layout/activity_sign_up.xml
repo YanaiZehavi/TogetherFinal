@@ -385,14 +385,15 @@
                     android:layout_marginEnd="-321dp"
                     android:layout_marginBottom="-247dp"
                     android:background="@color/white"
-                    app:srcCompat="@drawable/next" />
+                    app:srcCompat="@drawable/next"
+                    android:contentDescription="good"
+                    />
 
                 <View
                     android:id="@+id/rectangle_4_ek"
                     android:layout_width="344dp"
                     android:layout_height="49dp"
                     android:layout_alignEnd="@+id/fullname"
-                    android:layout_alignBottom="@+id/imageButton4"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="-1dp"
@@ -404,7 +405,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignEnd="@+id/fullname"
-                    android:layout_alignBottom="@+id/imageButton4"
                     android:layout_marginEnd="233dp"
                     android:layout_marginBottom="307dp"
                     android:text="Retype Password"
@@ -415,7 +415,6 @@
                     android:layout_width="344dp"
                     android:layout_height="49dp"
                     android:layout_alignEnd="@+id/rectangle_4_ek"
-                    android:layout_alignBottom="@+id/imageButton4"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="44dp"
                     android:layout_marginTop="8dp"

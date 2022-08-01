@@ -85,7 +85,9 @@
                     android:layout_marginEnd="59dp"
                     android:layout_marginBottom="-175dp"
                     android:background="@color/white"
-                    app:srcCompat="@drawable/donate" />
+                    app:srcCompat="@drawable/donate"
+                    android:contentDescription="good"
+                    />
 
                 <TextView
                     android:id="@+id/textView"
@@ -110,7 +112,9 @@
                     android:layout_marginTop="85dp"
                     android:layout_marginEnd="66dp"
                     android:ems="10"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    android:contentDescription="good"
+                    />
 
                 <EditText
                     android:id="@+id/editTextTextEmailAddress8"
@@ -123,7 +127,9 @@
                     android:layout_marginTop="171dp"
                     android:layout_marginEnd="65dp"
                     android:ems="10"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    android:contentDescription="good"
+                    />
 
                 <EditText
                     android:id="@+id/editTextTextEmailAddress6"
@@ -136,7 +142,9 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="67dp"
                     android:ems="10"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    android:contentDescription="good"
+                    />
 
                 <EditText
                     android:id="@+id/editTextTextEmailAddress7"
@@ -149,9 +157,13 @@
                     android:layout_marginTop="-81dp"
                     android:layout_marginEnd="68dp"
                     android:ems="10"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    android:contentDescription="good"
+                    />
 
             </RelativeLayout>
         </RelativeLayout>
 
     </ScrollView>
+
+</HorizontalScrollView>

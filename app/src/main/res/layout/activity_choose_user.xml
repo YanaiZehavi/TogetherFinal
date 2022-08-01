@@ -143,10 +143,14 @@
                     android:layout_marginEnd="53dp"
                     android:layout_marginBottom="124dp"
                     android:background="@color/white"
-                    app:srcCompat="@drawable/student" />
+                    app:srcCompat="@drawable/student"
+                    android:contentDescription="good"
+                    />
 
                 <ImageButton
                     android:id="@+id/worker"
+                    android:contentDescription="good"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/pills_ek1"
@@ -165,7 +169,9 @@
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="-68dp"
                     android:background="@color/white"
-                    app:srcCompat="@drawable/donate" />
+                    app:srcCompat="@drawable/donate"
+                    android:contentDescription="good"
+                    />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -196,8 +202,8 @@
                     android:layout_alignBottom="@+id/imageButton2"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="125dp"
-                    android:layout_marginEnd="145dp"
+                    android:layout_marginStart="149dp"
+                    android:layout_marginEnd="121dp"
                     android:layout_marginBottom="190dp"
                     app:srcCompat="@drawable/am" />
 
