@@ -411,29 +411,6 @@
                     android:contentDescription="good"
                     />
 
-                <View
-                    android:id="@+id/rectangle_4_ek"
-                    android:layout_width="344dp"
-                    android:layout_height="49dp"
-                    android:layout_alignEnd="@+id/fullname"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="-1dp"
-                    android:layout_marginBottom="263dp"
-                    android:background="@drawable/rectangle_4_ek2_shape" />
-
-                <View
-                    android:id="@+id/PhoneNum"
-                    android:layout_width="344dp"
-                    android:layout_height="49dp"
-                    android:layout_alignEnd="@+id/rectangle_4_ek"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="44dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="1dp"
-                    android:layout_marginBottom="175dp"
-                    android:background="@drawable/rectangle_4_ek2_shape" />
-
             </RelativeLayout>
         </RelativeLayout>
 
