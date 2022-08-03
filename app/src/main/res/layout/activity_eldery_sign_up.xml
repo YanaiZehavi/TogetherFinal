@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Retierment House Name"
+        android:hint="Retirement House Name"
         android:gravity="center"
         android:inputType="textPersonName" />
 
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:textSize="15dp"
         android:text="Password must be at least 6 characters\n"
-        android:gravity="center" />
+        android:gravity="center" />-->
 
 
 
@@ -104,9 +104,239 @@
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup> -->
 
-    <Button
+    <!--<Button
         android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="signup" />
-</LinearLayout>
+</LinearLayout>-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/rectangle_"
+        android:layout_width="419dp"
+        android:layout_height="83dp"
+        android:background="@drawable/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="193dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:text="together"
+        android:textColor="#Fff6ea"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224"
+        app:srcCompat="@drawable/elderlysignup" />
+
+    <ImageView
+        android:id="@+id/logo_png__1__2"
+        android:layout_width="89dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="logo_png__1__2"
+        android:src="@drawable/main_logo_cream2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="314dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:hint="Name of retirement house"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/Box1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <View
+        android:id="@+id/Box1"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rectangle_4_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <Spinner
+        android:id="@+id/location"
+        android:layout_width="313dp"
+        android:layout_height="19dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <View
+        android:id="@+id/Box2"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rectangle_4_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <View
+        android:id="@+id/Box3"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_alignBottom="@+id/location"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rectangle_4_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="314dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/Box3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <View
+        android:id="@+id/Box4"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_alignBottom="@+id/location"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rectangle_4_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="314dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/Box4"
+        app:layout_constraintEnd_toEndOf="@+id/Box4"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/Box5"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_alignBottom="@+id/location"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rectangle_4_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659" />
+
+    <EditText
+        android:id="@+id/PhoneNum"
+        android:layout_width="314dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/Box5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/Box6"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_alignBottom="@+id/location"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/rectangle_4_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="314dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/Box6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Box6"
+        app:srcCompat="@drawable/elderly" />
+</androidx.constraintlayout.widget.ConstraintLayout>
