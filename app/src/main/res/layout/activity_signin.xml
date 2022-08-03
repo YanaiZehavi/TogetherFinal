@@ -123,8 +123,8 @@
                 <EditText
                     android:id="@+id/password"
 
-                    android:layout_width="320dp"
-                    android:layout_height="66dp"
+                    android:layout_width="314dp"
+                    android:layout_height="56dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="68dp"
                     android:layout_marginEnd="31dp"
@@ -172,8 +172,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@+id/fullname"
                 android:layout_alignParentEnd="true"
-                android:layout_marginEnd="325dp"
-                android:layout_marginBottom="475dp"
+                android:layout_marginEnd="323dp"
+                android:layout_marginBottom="646dp"
                 android:text="Log In"
                 android:textColor="#151414"
                 android:textSize="20sp" />
