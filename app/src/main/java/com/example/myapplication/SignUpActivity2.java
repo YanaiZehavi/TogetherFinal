@@ -76,7 +76,7 @@ public class SignUpActivity2 extends AppCompatActivity implements AdapterView.On
                         User user = new User(name, email,password, location, ID, phone, birthday);
                         String uid = mAuth.getCurrentUser().getUid();
                         mDatabase.child(uid).setValue(user);
-                        Intent intent = new Intent(SignUpActivity2.this, Calendar.class);
+                        Intent intent = new Intent(SignUpActivity2.this, NavigationBar.class);
                         startActivity(intent);
                     } else {
                         // If sign in fails, display a message to the user.

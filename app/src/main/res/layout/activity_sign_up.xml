@@ -8,6 +8,7 @@
 
     <View
         android:id="@+id/emailBox6"
+
         android:layout_width="344dp"
         android:layout_height="49dp"
         android:layout_alignTop="@+id/password"
@@ -26,8 +27,8 @@
         android:layout_alignEnd="@+id/emailBox"
         android:layout_marginBottom="32dp"
         android:ems="10"
+        android:inputType="textPassword"
         android:hint="Password (longer than 6)"
-        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/PhoneNum"
         app:layout_constraintEnd_toEndOf="@+id/emailBox3"
         app:layout_constraintStart_toStartOf="@+id/emailBox3" />
