@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +25,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class ElderySignUp extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
     EditText username, password, email, location, phoneNum, address;
     Spinner spinner;
-    View signup;
+    ImageButton elderlysignup;
     FirebaseAuth mAuth;
     FirebaseDatabase database;
 
@@ -38,10 +39,10 @@ public class ElderySignUp extends AppCompatActivity implements View.OnClickListe
         email = findViewById(R.id.email);
         address = findViewById(R.id.address);
         phoneNum = findViewById(R.id.PhoneNum);
-        signup = findViewById(R.id.signup);
+        elderlysignup = findViewById(R.id.elderlysignup);
         mAuth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance("https://togethermvp-57663-default-rtdb.firebaseio.com/");
-        signup.setOnClickListener(this);
+        elderlysignup.setOnClickListener(this);
 
         spinner = findViewById(R.id.location);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
@@ -63,7 +64,7 @@ public class ElderySignUp extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        if(view == signup){
+        if(view == elderlysignup){
             createAccount(email.getText().toString(), password.getText().toString() );
         }
     }
