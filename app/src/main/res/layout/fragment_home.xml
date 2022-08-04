@@ -1,42 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
-    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <!--
-            /*
-             *	This content is generated from the API File Info.
-             *	(Alt+Shift+Ctrl+I).
-             *
-             *	@desc
-             *	@file 		travel_16
-             *	@date 		Wednesday 03rd of August 2022 01:12:16 PM
-             *	@title 		Page 1
-             *	@author
-             *	@keywords
-             *	@generator 	Export Kit v1.3.figma
-             *
-             */
-             -->
-        <ScrollView android:id="@+id/travel_16" android:layout_width="wrap_content" android:layout_height="match_parent">
-            <RelativeLayout android:id="@+id/content_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <RelativeLayout android:id="@+id/page_travel_16_ek1" android:layout_marginTop="0dp" android:layout_marginStart="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                    <View android:id="@+id/_bg__travel_16_ek2" android:background="@drawable/_bg__travel_16_ek2_shape" android:layout_marginStart="0dp" android:layout_marginTop="0dp" android:layout_width="414dp" android:layout_height="896dp"/>
-                    <ImageView android:id="@+id/activitytoday4" android:src="@drawable/activitytoday4" android:contentDescription="activitytoday4" android:layout_marginStart="83.27dp" android:layout_marginTop="142.44dp" android:layout_width="233.66dp" android:layout_height="122.72dp"/>
-                    <ImageView android:id="@+id/activitytoday3" android:src="@drawable/activitytoday3" android:contentDescription="activitytoday3" android:layout_marginStart="38.73dp" android:layout_marginTop="478.15dp" android:layout_width="78.04dp" android:layout_height="110.29dp"/>
-                    <ImageView android:id="@+id/activitytoday2" android:src="@drawable/activitytoday2" android:contentDescription="activitytoday2" android:layout_marginStart="41.73dp" android:layout_marginTop="650.15dp" android:layout_width="78.9dp" android:layout_height="115.29dp"/>
-                    <ImageView android:id="@+id/activitytoday1" android:src="@drawable/activitytoday1" android:contentDescription="activitytoday1" android:layout_marginStart="36.72dp" android:layout_marginTop="311.15dp" android:layout_width="79.6dp" android:layout_height="114.29dp"/>
-                    <ImageView android:id="@+id/togetheractivitylogo" android:src="@drawable/togetheractivitylogo" android:contentDescription="togetheractivitylogo" android:layout_marginStart="0dp" android:layout_marginTop="-7dp" android:layout_width="419dp" android:layout_height="83dp"/>
-                    <ImageView android:id="@+id/logo_png__1__2" android:src="@drawable/logo_png__1__2" android:contentDescription="logo_png__1__2" android:layout_marginStart="2dp" android:layout_marginTop="0dp" android:layout_width="89dp" android:layout_height="83dp"/>
-                </RelativeLayout>
-            </RelativeLayout>
-        </ScrollView>
-    </HorizontalScrollView>
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="2678dp"
+            android:src="@drawable/travel_26" />
+
+    </ScrollView>
 
 </FrameLayout>
