@@ -8,26 +8,57 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="This Day's Activities \n"
-        android:textSize="35sp"
-        android:gravity="center"
-        android:textColor="#520F33" />
+
+    <ScrollView android:id="@+id/travel_16" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/content_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/page_travel_16_ek1" android:layout_marginTop="0dp" android:layout_marginStart="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
 
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview_events"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-         />
+                <View
+                    android:id="@+id/_bg__travel_16_ek2"
+                    android:layout_width="414dp"
+                    android:layout_height="896dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/_bg__travel_16_ek2_shape" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_events"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="240dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/thisdaysactivities"
+                    android:layout_width="233.66dp"
+                    android:layout_height="83.88dp"
+                    android:layout_marginStart="84.27dp"
+                    android:layout_marginTop="141.84dp"
+                    android:contentDescription="thisdaysactivities"
+                    android:src="@drawable/thisdaysactivities" />
+
+                <ImageView
+                    android:id="@+id/headr"
+                    android:layout_width="419dp"
+                    android:layout_height="83dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="-7dp"
+                    android:contentDescription="headr"
+                    android:src="@drawable/headr" />
+                <ImageView android:id="@+id/logo_png__1__2" android:src="@drawable/logo_png__1__2" android:contentDescription="logo_png__1__2" android:layout_marginStart="2dp" android:layout_marginTop="0dp" android:layout_width="89dp" android:layout_height="83dp"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
 
 
 </LinearLayout>
