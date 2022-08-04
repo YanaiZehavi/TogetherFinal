@@ -5,6 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TeenagerHobbie">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/travel_25" />
     <View
         android:id="@+id/rectangle_"
         android:layout_width="419dp"
@@ -46,13 +57,6 @@
         app:layout_constraintVertical_bias="0.0" />
 
 
-
-
-
-
-
-
-
     <ImageButton
         android:id="@+id/sign_up"
         android:layout_width="wrap_content"
@@ -65,6 +69,8 @@
         app:layout_constraintTop_toTopOf="@+id/rectangle_"
         app:layout_constraintVertical_bias="0.909"
         app:srcCompat="@drawable/addelderlybutton" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
