@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -30,7 +31,8 @@ import java.util.Calendar;
 
 public class AddingEvents extends AppCompatActivity implements View.OnClickListener{
     EditText name, date, time, neededNum, description;
-    Button add_elder, signup;
+    Button add_elder;
+    ImageButton signup;
     FirebaseAuth mAuth;
     FirebaseDatabase database;
 

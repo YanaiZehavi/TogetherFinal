@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TimePicker;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -29,7 +30,7 @@ import java.util.Calendar;
 public class NewEventFragment extends Fragment implements View.OnClickListener {
 
     EditText name, date, time, neededNum, description;
-    Button add_elder, signup;
+    ImageButton signup;
     FirebaseAuth mAuth;
     FirebaseDatabase database;
 
@@ -62,11 +63,9 @@ public class NewEventFragment extends Fragment implements View.OnClickListener {
         neededNum = rootView.findViewById(R.id.needed);
         description = rootView.findViewById(R.id.description);
         signup = rootView.findViewById(R.id.signup);
-        add_elder = rootView.findViewById(R.id.add_elder);
         mAuth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance("https://togethermvp-57663-default-rtdb.firebaseio.com/");
         signup.setOnClickListener(this);
-        add_elder.setOnClickListener(this);
 
         date.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -90,10 +89,6 @@ public class NewEventFragment extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         if (view == signup){
             addEvent();
-        }
-        else if (view == add_elder) {
-            Intent i = new Intent(getActivity(), AddElder.class);
-            startActivity(i);
         }
     }
 

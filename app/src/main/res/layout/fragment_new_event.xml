@@ -5,7 +5,111 @@
     android:layout_height="match_parent"
     tools:context=".NewEventFragment">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <HorizontalScrollView
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ScrollView android:id="@+id/sign_up1" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/content_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@+id/page_sign_up1_ek1" android:layout_marginTop="0dp" android:layout_marginStart="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                    <View
+                        android:id="@+id/_bg__sign_up1_ek2"
+                        android:layout_width="414dp"
+                        android:layout_height="896dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/_bg__sign_up1_ek2_shape" />
+
+                    <ImageButton
+                        android:id="@+id/signup"
+                        android:layout_width="293dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="62dp"
+                        android:layout_marginTop="561dp"
+                        android:contentDescription="btn"
+                        android:src="@drawable/btn" />
+                    <ImageView android:id="@+id/aot" android:src="@drawable/aot" android:contentDescription="aot" android:layout_marginStart="34dp" android:layout_marginTop="493.71dp" android:layout_width="343dp" android:layout_height="53.29dp"/>
+                    <ImageView android:id="@+id/time" android:src="@drawable/time" android:contentDescription="time" android:layout_marginStart="34dp" android:layout_marginTop="424.74dp" android:layout_width="343dp" android:layout_height="53.26dp"/>
+                    <ImageView android:id="@+id/date" android:src="@drawable/date" android:contentDescription="date" android:layout_marginStart="34dp" android:layout_marginTop="359.92dp" android:layout_width="343dp" android:layout_height="53.08dp"/>
+                    <ImageView android:id="@+id/desc" android:src="@drawable/desc" android:contentDescription="desc" android:layout_marginStart="34dp" android:layout_marginTop="287.74dp" android:layout_width="343dp" android:layout_height="53.26dp"/>
+                    <ImageView android:id="@+id/noe" android:src="@drawable/noe" android:contentDescription="noe" android:layout_marginStart="34dp" android:layout_marginTop="225.71dp" android:layout_width="343dp" android:layout_height="54.42dp"/>
+                    <ImageView android:id="@+id/addeventheader" android:src="@drawable/addeventheader" android:contentDescription="addeventheader" android:layout_marginStart="46dp" android:layout_marginTop="176dp" android:layout_width="115.27dp" android:layout_height="17.64dp"/>
+                    <ImageView android:id="@+id/headertogthr" android:src="@drawable/headertogthr" android:contentDescription="headertogthr" android:layout_marginStart="-1dp" android:layout_marginTop="-7dp" android:layout_width="419dp" android:layout_height="83dp"/>
+                    <ImageView android:id="@+id/logo_png__1__2" android:src="@drawable/logo_png__1__2" android:contentDescription="logo_png__1__2" android:layout_marginStart="2dp" android:layout_marginTop="0dp" android:layout_width="89dp" android:layout_height="83dp"/>
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/noe"
+                        android:layout_alignEnd="@+id/noe"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="235dp"
+                        android:layout_marginEnd="132dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/noe"
+                        android:layout_alignEnd="@+id/noe"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="-2dp"
+                        android:layout_marginTop="294dp"
+                        android:layout_marginEnd="135dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        />
+
+                    <EditText
+                        android:id="@+id/date_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/noe"
+                        android:layout_alignEnd="@+id/noe"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="372dp"
+                        android:layout_marginEnd="130dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        />
+
+                    <EditText
+                        android:id="@+id/time_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/noe"
+                        android:layout_alignEnd="@+id/noe"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="-1dp"
+                        android:layout_marginTop="432dp"
+                        android:layout_marginEnd="134dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        />
+
+                    <EditText
+                        android:id="@+id/needed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/noe"
+                        android:layout_alignEnd="@+id/noe"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="501dp"
+                        android:layout_marginEnd="132dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+   <!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -65,7 +169,7 @@
             android:hint="Amount of teenagers needed"
             android:gravity="center"
             android:inputType="textPersonName
-" />
+" /> -->
 
 
 
@@ -88,7 +192,7 @@
                 android:text="Elder"
                 android:onClick="onRadioButtonClicked"/>
         </RadioGroup> -->
-
+<!---
         <Button
             android:id="@+id/signup"
             android:layout_width="match_parent"
@@ -100,6 +204,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="add elder" />
-    </LinearLayout>
+    </LinearLayout>-->
 
 </FrameLayout>

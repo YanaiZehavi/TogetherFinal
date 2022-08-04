@@ -15,36 +15,36 @@
         android:textColor="@color/black"/>
 
     <TextView
-        android:id="@+id/location"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Location"
-        android:textSize="20sp"
-        android:gravity="center"/>
-
-    <TextView
         android:id="@+id/date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="DD/MM/YY"
-        android:textSize="20sp"
-        android:gravity="center"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="HH::MM"
-        android:textSize="20sp"
-        android:gravity="center"/>
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Location"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/description"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Description of the event in a few sentences"
-        android:textSize="15sp"
-        android:gravity="center"/>
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -52,5 +52,6 @@
         android:text="\n"
         android:textSize="20sp"
         android:gravity="center"/>
+
 
 </LinearLayout>
