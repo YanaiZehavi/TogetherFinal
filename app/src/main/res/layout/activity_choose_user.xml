@@ -77,7 +77,7 @@
                     android:layout_height="wrap_content"
                     />
 
-                <ImageView
+                <!--<ImageView
                     android:id="@+id/logo_png__1__2"
                     android:layout_width="89dp"
                     android:layout_height="83dp"
@@ -86,7 +86,7 @@
                     android:layout_marginStart="-21dp"
                     android:layout_marginTop="-19dp"
                     android:contentDescription="logo_png__1__2"
-                    android:src="@drawable/main_logo_cream2" />
+                    android:src="@drawable/main_logo_cream2" />-->
 
                 <ImageView
                     android:id="@+id/imageView"
@@ -127,14 +127,49 @@
 
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_width="188dp"
-                    android:layout_height="43dp"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/student"
                     android:layout_alignParentStart="true"
-                    android:layout_marginStart="84dp"
-                    android:layout_marginBottom="147dp"
+                    android:layout_marginStart="121dp"
+                    android:layout_marginBottom="352dp"
                     android:text="together"
                     android:textColor="#Fff6ea"
-                    android:textSize="30dp" />
+                    android:textSize="40dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/rectangle_1434"
+                    android:layout_marginBottom="660dp"
+                    android:text="together"
+                    android:textColor="#Fff6ea"
+                    android:textSize="40dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/logo_png__1__2"
+                    app:layout_constraintTop_toTopOf="@+id/rectangle_1434"
+                    app:layout_constraintVertical_bias="0.089" />
+
+
+                <ImageView
+                    android:id="@+id/logo_png__1__2"
+                    android:layout_width="126dp"
+                    android:layout_height="123dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="-2dp"
+                    android:layout_marginTop="-30dp"
+                    android:contentDescription="logo_png__1__2"
+                    android:src="@drawable/logofinal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/rectangle_1434"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
 
             </RelativeLayout>
         </RelativeLayout>
