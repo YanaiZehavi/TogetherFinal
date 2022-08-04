@@ -44,16 +44,49 @@
                     android:layout_marginTop="141.84dp"
                     android:contentDescription="thisdaysactivities"
                     android:src="@drawable/thisdaysactivities" />
-
-                <ImageView
-                    android:id="@+id/headr"
+                <View
+                    android:id="@+id/rectangle_"
                     android:layout_width="419dp"
                     android:layout_height="83dp"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="-7dp"
-                    android:contentDescription="headr"
-                    android:src="@drawable/headr" />
-                <ImageView android:id="@+id/logo_png__1__2" android:src="@drawable/logo_png__1__2" android:contentDescription="logo_png__1__2" android:layout_marginStart="2dp" android:layout_marginTop="0dp" android:layout_width="89dp" android:layout_height="83dp"/>
+                    android:background="@drawable/blue"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/rectangle_"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="172dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="together"
+                    android:textColor="#Fff6ea"
+                    android:textSize="40dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/logo_png__1__2"
+                    app:layout_constraintVertical_bias="0.019" />
+
+                <ImageView
+                    android:id="@+id/logo_png__1__2"
+                    android:layout_width="126dp"
+                    android:layout_height="123dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="-11dp"
+                    android:layout_marginTop="-21dp"
+                    android:contentDescription="logo_png__1__2"
+                    android:src="@drawable/logofinal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
             </RelativeLayout>
 
         </RelativeLayout>
