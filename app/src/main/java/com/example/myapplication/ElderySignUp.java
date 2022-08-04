@@ -80,7 +80,7 @@ public class ElderySignUp extends AppCompatActivity implements View.OnClickListe
                                 User user = new User(username.getText().toString(), email, password, spinner.getSelectedItem().toString(), "0", phoneNum.getText().toString(),"1/1/1999", false, address.getText().toString());
                                 String uid = mAuth.getCurrentUser().getUid();
                                 database.getReference("Users").child(uid).setValue(user);
-                                Intent intent = new Intent(ElderySignUp.this, AddingEvents.class);
+                                Intent intent = new Intent(ElderySignUp.this, NavigationBarElder.class);
                                 startActivity(intent);
                             }
                             else {

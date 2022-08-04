@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 
 import com.google.firebase.database.DatabaseReference;
@@ -19,7 +21,7 @@ public class NewElderFragment extends Fragment implements View.OnClickListener{
     DatabaseReference mDatabase;
     FirebaseDatabase database;
     String hobby;
-    Button sign_up;
+    ImageButton sign_up;
     RadioButton homework, chess, guitar, cooking, art, theater, writing, singing, reading;
 
     public NewElderFragment() {
@@ -77,6 +79,8 @@ public class NewElderFragment extends Fragment implements View.OnClickListener{
                     gender.getText().toString(),
                     hobby);
             mDatabase.child(name.getText().toString()).setValue(elder);
+            Intent i = new Intent(getActivity(), NavigationBarElder.class);
+            startActivity(i);
         }
         if(view instanceof RadioButton){
             onRadioButtonClicked(view);

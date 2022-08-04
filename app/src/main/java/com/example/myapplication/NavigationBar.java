@@ -27,7 +27,7 @@ public class NavigationBar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityNavigationBarBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        replaceFragment(new HomeFragment());
+        replaceFragment(new CalendarFragment());
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()){
