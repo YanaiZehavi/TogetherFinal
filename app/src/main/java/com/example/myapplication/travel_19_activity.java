@@ -57,7 +57,7 @@ package com.example.myapplication;
             vector_ek2 = (ImageView) findViewById(R.id.vector_ek2);
             vector_ek3 = (ImageView) findViewById(R.id.vector_ek3);
             vector_ek4 = (ImageView) findViewById(R.id.vector_ek4);
-            vector_ek5 = (ImageView) findViewById(R.id.vector_ek5);
+            vector_ek5 = (ImageView) findViewById(R.id.hobbies);
             oval = (View) findViewById(R.id.oval);
             fill_1 = (ImageView) findViewById(R.id.fill_1);
             fill_4 = (ImageView) findViewById(R.id.fill_4);

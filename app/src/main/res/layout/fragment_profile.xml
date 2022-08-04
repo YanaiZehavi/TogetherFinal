@@ -45,8 +45,8 @@
                     <ImageView android:id="@+id/vector_ek3" android:src="@drawable/vector_ek3" android:contentDescription="vector_ek3" android:layout_marginStart="38dp" android:layout_marginTop="453dp" android:layout_width="343dp" android:layout_height="54dp"/>
                     <ImageView android:id="@+id/vector_ek4" android:src="@drawable/vector_ek4" android:contentDescription="vector_ek4" android:layout_marginStart="38dp" android:layout_marginTop="527dp" android:layout_width="343dp" android:layout_height="54dp"/>
 
-                    <ImageView
-                        android:id="@+id/vector_ek5"
+                    <ImageButton
+                        android:id="@+id/hobbies"
                         android:layout_width="343dp"
                         android:layout_height="54dp"
                         android:layout_marginStart="38dp"

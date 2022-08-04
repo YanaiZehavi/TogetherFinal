@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".TeenagerHobbie"
+            android:exported="false" />
+        <activity
             android:name=".travel_19_activity"
             android:exported="false" />
         <activity
