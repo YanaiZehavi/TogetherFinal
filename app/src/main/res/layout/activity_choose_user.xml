@@ -95,9 +95,9 @@
                     android:layout_alignBottom="@+id/pills_ek1"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="127dp"
-                    android:layout_marginEnd="143dp"
-                    android:layout_marginBottom="209dp"
+                    android:layout_marginStart="133dp"
+                    android:layout_marginEnd="137dp"
+                    android:layout_marginBottom="85dp"
                     app:srcCompat="@drawable/am" />
 
                 <ImageButton
@@ -106,38 +106,24 @@
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/pills_ek1"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="53dp"
-                    android:layout_marginBottom="124dp"
+                    android:layout_marginEnd="51dp"
+                    android:layout_marginBottom="-36dp"
                     android:background="@color/white"
-                    app:srcCompat="@drawable/student"
                     android:contentDescription="good"
-                    />
+                    app:srcCompat="@drawable/student" />
 
                 <ImageButton
                     android:id="@+id/worker"
-                    android:contentDescription="good"
-
                     android:layout_width="wrap_content"
+
                     android:layout_height="wrap_content"
                     android:layout_alignBottom="@+id/pills_ek1"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="53dp"
-                    android:layout_marginBottom="18dp"
+                    android:layout_marginEnd="42dp"
+                    android:layout_marginBottom="-195dp"
                     android:background="@color/white"
-                    app:srcCompat="@drawable/retirementhouse" />
-
-                <ImageButton
-                    android:id="@+id/donationbtn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/pills_ek2"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="50dp"
-                    android:layout_marginBottom="-68dp"
-                    android:background="@color/white"
-                    app:srcCompat="@drawable/donate"
                     android:contentDescription="good"
-                    />
+                    app:srcCompat="@drawable/retirementhouse" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -149,18 +135,6 @@
                     android:text="together"
                     android:textColor="#Fff6ea"
                     android:textSize="30dp" />
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="131dp"
-                    android:layout_height="47dp"
-                    android:layout_above="@+id/donationbtn"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="146dp"
-                    android:layout_marginEnd="142dp"
-                    android:layout_marginBottom="63dp"
-                    app:srcCompat="@drawable/or" />
 
             </RelativeLayout>
         </RelativeLayout>
