@@ -63,7 +63,6 @@ package com.example.myapplication;
             fill_4 = (ImageView) findViewById(R.id.fill_4);
             user_image = (ImageView) findViewById(R.id.user_image);
             dot = (View) findViewById(R.id.dot);
-            vector_ek6 = (ImageView) findViewById(R.id.vector_ek6);
             logo_png__1__2 = (ImageView) findViewById(R.id.logo_png__1__2);
 
 
